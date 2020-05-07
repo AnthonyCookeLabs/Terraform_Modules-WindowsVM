@@ -25,9 +25,11 @@
 <br>module "windowsVM" {
 <br>  source = "github.com/AnthonyCookeLabs/Terraform_Modules-WindowsVM.git"
 <br>
-<br>  windowsvmrgname = var.rgname
-<br>  location = "westus"
-<br>  prefix = "tesst"
-<br>  environment = "uat"
+<br>  windowsvmrgname = 
+<br>  location = ""
+<br>  prefix = ""
+<br>  environment = ""
+<br>  #address_prefix = 
+<br>  #address_space = 
 <br>  
 <br>}
