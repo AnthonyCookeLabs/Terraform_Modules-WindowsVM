@@ -22,10 +22,6 @@
 <br>- address_space (optional - Default: "10.0.0.0/16")
 
 
-variable "address_space" {
-    type = list
-    default = ["10.0.0.0/16"]
-
 <br>module "windowsVM" {
 <br>  source = "./winvm"
 <br>
