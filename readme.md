@@ -23,7 +23,7 @@
 
 
 <br>module "windowsVM" {
-<br>  source = "./winvm"
+<br>  source = "github.com/AnthonyCookeLabs/Terraform_Modules-WindowsVM.git"
 <br>
 <br>  windowsvmrgname = var.rgname
 <br>  location = "westus"
